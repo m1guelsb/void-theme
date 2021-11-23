@@ -1,0 +1,33 @@
+{
+  "name": "void-theme",
+  "displayName": "vøid theme",
+  "description": "black theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "publisher": "m1guelsb",
+  "author": {
+    "name": "Miguel S. Barbosa",
+    "email": "miguelbarbosacs@gmail.com",
+    "url": "https://github.com/m1guelsb"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/m1guelsb/dark-theme-void",
+  "keywords": [
+    "vscode void theme"
+  ],
+  "icon": "theme-icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "vøid theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vøid theme-color-theme.json"
+      }
+    ]
+  }
+}
